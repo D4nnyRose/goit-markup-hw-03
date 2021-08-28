@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
+  margin: 0;
 }
 
 h1,
@@ -119,7 +120,25 @@ li {
   color: var(--black);
   text-decoration: none;
 }
-.text-portfolio:hover {
+.text-portfolio2 {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--black);
+  text-decoration: none;
+}
+.text-portfolio2:focus {
+  color: var(--blue);
+}
+.text-portfolio2:active {
+  color: var(--blue);
+}
+.text-portfolio2:active .text-portfolio:hover {
   color: var(--blue);
 }
 .text-portfolio:focus {
@@ -487,6 +506,7 @@ li {
   margin-left: 0;
 }
 .button-all {
+  font-family: "Roboto", sans-serif;
   margin-right: 8px;
   background: #f5f4fa;
   padding: 6px 22px;
@@ -498,6 +518,7 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black);
+  border: none;
 }
 .visually-hidden {
   position: absolute;
@@ -518,6 +539,7 @@ li {
   color: var(--blue);
 }
 .buttons {
+  font-family: "Roboto", sans-serif;
   margin-right: 8px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -530,6 +552,7 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black);
+  border: none;
 }
 .buttons:hover {
   color: var(--white);
